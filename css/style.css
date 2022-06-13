@@ -70,6 +70,9 @@ li {
   top: 0;
   z-index: 1;
   width: 100%;
+  box-shadow:  10px 10px 10px rgba(0,0,0,0.6);
+  border-radius: 20px;
+  background-color: #ffffff
 }
 
 .header-inner {
