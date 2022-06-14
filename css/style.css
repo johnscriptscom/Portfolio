@@ -71,12 +71,9 @@ li {
   z-index: 1;
   width: 100%;
   box-shadow: 1px -7px 49px -3px #777777;
-  border-radius: 10px;
-  border-radius: 20px;
+  border-radius: 50px;
   background-color: #ffffff;
-  margin: 10px; 
-  margin-right: auto;
-  margin-left: auto;
+  margin-top: 15px; 
 }
 
 .header-inner {
