@@ -31,7 +31,6 @@ li {
 .sp-only {
   display: none;
 }
-
 /*--------------------------------
  レイアウト
 ---------------------------------*/
@@ -68,11 +67,11 @@ li {
 .header {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 3;
   width: 100%;
   box-shadow: 1px -7px 49px -3px #777777;
-  border-radius: 50px;
-  background-color: #ffffff;
+  border-radius: 30px;
+  background-color: #fff;
   margin-top: 15px; 
 }
 
@@ -210,6 +209,11 @@ li {
   justify-content: space-between;
   width: 48%;
   margin-bottom: 50px;
+  display: block;
+  border: 4px solid #bebebe;
+  box-shadow: 4px 4px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .skill-img {
@@ -220,10 +224,11 @@ li {
 
 .skill-body {
   flex: 1;
+  color: black;
 }
 
 .skill-name {
-  margin-bottom: 3px;
+  margin-bottom: 3px; 
 }
 
 /*--------------------------------
