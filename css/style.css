@@ -418,3 +418,32 @@ li {
     padding: 20px;
   }
 }
+  /* Dark-theme */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+  .header {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  box-shadow: 1px -7px 49px -3px #777777;
+  border-radius: 30px;
+  background-color: #0f0f0f;
+  margin-top: 15px; 
+  }
+  .header-nav-item a {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px 0;
+  letter-spacing: .05em;
+  color: #dddddd;
+  }
+  .header-logo a {
+  color: #a9a9a9;
+  }
+
+
+}
