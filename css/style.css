@@ -256,11 +256,11 @@ li {
   align-items: flex-start;
   justify-content: space-between;
   width: 30%;
-  height: 50%;
+  height: auto;
   margin-bottom: 50px;
   border: 4px solid #bebebe;
   box-shadow: 4px 4px;
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 20px;
 }
 .device-body {
