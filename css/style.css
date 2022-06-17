@@ -241,6 +241,42 @@ li {
 .contact-text {
   margin-top: 10px;
 }
+
+/*--------------------------------
+ device
+---------------------------------*/
+.device-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+.device-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 30%;
+  height: 50%;
+  margin-bottom: 50px;
+  border: 4px solid #bebebe;
+  box-shadow: 4px 4px;
+  border-radius: 30px;
+  padding: 20px;
+}
+.device-body {
+  flex: 1;
+  color: black;
+}
+
+.device-name {
+  margin-bottom: 3px; 
+}
+.device-img {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
 /*--------------------------------
  ページトップ
 ---------------------------------*/
@@ -410,6 +446,19 @@ li {
   }
 
   .skill-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* device */
+  .device-list {
+    display: block;
+    margin-bottom: 0;
+  }
+  .device-item {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .device-item:last-child {
     margin-bottom: 0;
   }
 
