@@ -475,6 +475,15 @@ li {
     background-color: #000;
     color: #fff;
   }
+  .title {
+    font-size: 34px;
+    font-weight: normal;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 40px;
+    letter-spacing: .05em;
+    color: rgb(255, 255, 255);
+  }
   .header {
   position: fixed;
   top: 0;
