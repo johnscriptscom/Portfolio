@@ -196,16 +196,16 @@ li {
 }
 
 /*--------------------------------
- Skill
+ links
 ---------------------------------*/
-.skill-list {
+.links-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: -50px;
 }
 
-.skill-item {
+.links-item {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -218,18 +218,18 @@ li {
   padding: 20px;
 }
 
-.skill-img {
+.links-img {
   width: 60px;
   height: auto;
   margin-right: 20px;
 }
 
-.skill-body {
+.links-body {
   flex: 1;
   color: black;
 }
 
-.skill-name {
+.links-name {
   margin-bottom: 3px; 
 }
 
@@ -436,18 +436,18 @@ li {
     margin-bottom: 30px;
   }
 
-  /* Skill */
-  .skill-list {
+  /* links */
+  .links-list {
     display: block;
     margin-bottom: 0;
   }
 
-  .skill-item {
+  .links-item {
     width: 100%;
     margin-bottom: 35px;
   }
 
-  .skill-item:last-child {
+  .links-item:last-child {
     margin-bottom: 0;
   }
   
@@ -497,6 +497,13 @@ li {
   .header-logo a {
   color: #a9a9a9;
   }
-
+  .links-body {
+    flex: 1;
+    color: white;
+  }
+  .device-body {
+    flex: 1;
+    color: white;
+  }
 
 }
