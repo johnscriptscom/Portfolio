@@ -479,7 +479,7 @@ li {
   position: fixed;
   top: 0;
   z-index: 3;
-  width: 100%;
+  width: 70%;
   box-shadow: 1px -7px 49px -3px #777777;
   border-radius: 30px;
   background-color: #0f0f0f;
