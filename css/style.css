@@ -528,6 +528,7 @@ li {
     margin-bottom: 40px;
     letter-spacing: .05em;
     color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 5px rgba(255, 255, 255, 0.8);
   }
   
   .lead {
@@ -685,7 +686,7 @@ li {
     width: 48%;
     margin-bottom: 50px;
     display: block;
-    box-shadow: 0px 9px 28px -5px #ffffff;
+    box-shadow: 5px 5px 10px 1px #ffffff;
     border-radius: 23px;
     padding: 20px;
   }
